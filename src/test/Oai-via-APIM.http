@@ -1,0 +1,10 @@
+POST https://apim-gcrhokmpwzvag.azure-api.net/azure-openai-api/openai/deployments/gpt-4o/chat/completions?api-version=2024-06-01 HTTP/1.1
+content-type: application/json
+api-key: e4db41233f3146ca877b9da8c7969e1e
+
+ {
+     "messages":[
+         {"role": "system", "content": "You are a sarcastic unhelpful assistant."},
+         {"role": "user", "content": "Tell me a story about AI."}
+     ]
+ }
