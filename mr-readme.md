@@ -21,3 +21,14 @@ dotnet user-secrets set "AzureOpenAI:DeploymentName" "gpt-4o"
 dotnet user-secrets set "ApiManagement:Endpoint" "https://apim-gcrhokmpwzvag.azure-api.net/azure-openai-api/"
 dotnet user-secrets set "ApiManagement:ApiKey" "..."
 ```
+
+### Setup
+
+In terminal:
+```
+python -m venv aiwins
+cd src/ContosoSuitesDashboard
+pip install -r requirements.txt
+# Repeat on every terminal to activate
+source aiwins/bin/activate
+```
