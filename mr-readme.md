@@ -29,6 +29,9 @@ In terminal:
 python -m venv aiwins
 cd src/ContosoSuitesDashboard
 pip install -r requirements.txt
+```
+
+```
 # Repeat on every terminal to activate
 source aiwins/bin/activate
 ```
